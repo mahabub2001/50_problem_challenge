@@ -33,22 +33,7 @@ public class Candies_cc {
             }
             Arrays.sort(arr);
             int i,s=0,m=0;
-            /*while(i!=size)
-            {
-                if(arr[i]==arr[i+1])
-                {
-                    s++;
-                    if(s>m)
-                    {
-                        m=s;
-                    }
-                }
-                else
-                {
-                    s=0;
-                }
-                i++;
-            }*/
+            
         for( i=0;i<size;i++)
         {
             for(int j=i+1;j<size;j++)
