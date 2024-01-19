@@ -1,0 +1,38 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        int n;
+        Scanner sc = new Scanner(System.in);
+        n=sc.nextInt();
+        int i=0;
+        do
+        {
+            if(i%2==0)
+            {
+                System.out.print("I hate ");
+                if(i==n-1)
+                {
+                    System.out.print("it");
+                }
+                else
+                {
+                    System.out.print("that ");
+                }
+            }
+            else
+            {
+                System.out.print("I love ");
+                if(i==n-1)
+                {
+                    System.out.print("it");
+                }
+                else
+                {
+                    System.out.print("that ");
+                }
+            }
+            i++;
+        }while(i<n);
+    }
+}
